@@ -6,7 +6,7 @@ interface QueueInterface {
   size(): number;
 }
 
-class QueueClass implements QueueInterface {
+export default class QueueClass implements QueueInterface {
   private data: Array<number> = [];
   private capacity: number = 0;
 

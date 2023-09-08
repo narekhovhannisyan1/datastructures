@@ -7,7 +7,7 @@ interface StackInterface {
   isEmpty(): boolean;
 }
 
-class StackClass implements StackInterface {
+export default class StackClass implements StackInterface {
   private data: Array<number> = [];
 
   constructor(private capacity: number) {}

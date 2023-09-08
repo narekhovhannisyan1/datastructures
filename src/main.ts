@@ -1,5 +1,8 @@
-import BinaryTree from "./BinaryTree.js";
+import Stack from "./Stack.js";
+import Queue from "./Queue.js";
+import LinkedList from "./LinkedList.js";
 import MapClass from "./MapClass.js";
+import BinaryTree from "./BinaryTree.js";
 import HashTable from "./HashTable.js";
 
 const ht = new HashTable<string, number>(8);
