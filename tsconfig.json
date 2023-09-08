@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "allowJs": true,
+    "module": "NodeNext",
+    "rootDirs": ["src"],
+    "outDir": "./build",
+    "strict": true,
+    "moduleResolution": "NodeNext"
+  }
+}

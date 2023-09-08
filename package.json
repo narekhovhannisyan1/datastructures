@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "name": "ds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "start": "npm run compile && node ./build/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
